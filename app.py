@@ -3,7 +3,7 @@ from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
 import socket
 app = Flask(__name__)
-app.config["MONGO_URI"] = "mongodb://3.92.198.230:27017/dev"
+app.config["MONGO_URI"] = "mongodb://3.86.77.164:27017/dev"
 mongo = PyMongo(app)
 db = mongo.db
 @app.route("/")
